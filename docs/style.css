@@ -68,3 +68,9 @@ div > h1{
     73px 75px 127px rgba(0, 0, 0, 0.16);
 }
 
+@media only screen and (min-width: 768px) {
+    .card{
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+}
