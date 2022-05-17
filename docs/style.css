@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,400;8..144,800&family=Roboto+Mono:wght@300;400;600;700&display=swap');
+
+:root {
+    --light-pink: #f7cac9;
+    --purple-pink: #dec2cb;
+    --light-purple: #c5b9cd;
+    --purple-blue: #abb1cf;
+    --blue: #92a8d1;
+  }
+
+body{
+    background-color: var(--light-pink);
+    font-family: 'Roboto Mono', monospace;
+}
+
+div > h1{
+    font-size: 3em;
+    margin-bottom: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: stretch;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--purple-pink);
+    margin: 2em;
+    padding: 2em;
+    border-radius: 7px;
+    box-shadow:
+    2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+    6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+    12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
+    22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+    41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
+    100px 100px 80px rgba(0, 0, 0, 0.07);
+}
+
+.button{
+    padding: 1em 2em;
+    background-color: var(--purple-blue);
+    border-radius: 30px;
+    border: 2px solid var(--blue);
+    cursor: pointer;
+    box-shadow:
+    2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+    6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+    12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
+    22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+    41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
+    100px 100px 80px rgba(0, 0, 0, 0.07);
+    
+}
+
+.button:hover{
+    box-shadow:
+    1.7px 1.7px 3.5px rgba(0, 0, 0, 0.045),
+    3.8px 3.9px 8.4px rgba(0, 0, 0, 0.065),
+    7.1px 7.3px 15.9px rgba(0, 0, 0, 0.08),
+    12.7px 13px 28.4px rgba(0, 0, 0, 0.095),
+    24.5px 25.2px 53.1px rgba(0, 0, 0, 0.115),
+    73px 75px 127px rgba(0, 0, 0, 0.16);
+}
+
